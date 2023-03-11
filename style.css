@@ -31,30 +31,34 @@ root {
   top: 0;
 }
 
-header nav{
-    padding: 1rem
+header nav {
+  padding: 1rem;
 }
 
 .navbar {
   background: blueviolet;
-  color: white;
+  color: aliceblue;
   width: 100%;
-  font-size: 1.4rem;;
+  font-size: 1.4rem;
   height: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  padding:  0rem;
+  padding-left: 1rem;
   gap: 1rem;
   list-style: none;
   font-family: "Cabin Sketch", cursive;
   text-emphasis: none;
   text-decoration: none;
 }
+.navbar a{
+    text-decoration: none;
+    background-color: blueviolet;
+}
 header a {
   text-decoration: none;
-  color: aliceblue;
+  color: white;
 }
 
 .footer {
@@ -62,9 +66,17 @@ header a {
   color: white;
   width: 100vw;
   padding: 10px;
-  text-align: end;
   position: fixed;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 30% 1fr;
+  justify-content: center;
   bottom: 0;
+}
+
+.copyright {
+  text-align: center;
+  padding: 0 0.7rem;
 }
 
 header #main-name {
@@ -75,9 +87,8 @@ header #main-name {
   color: aliceblue;
 }
 
-header h1{
+header h1 {
   padding: 0 0.7rem;
-
 }
 
 .main-content {
