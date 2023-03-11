@@ -1,46 +1,65 @@
 /* css reset */
 
-*, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-
-
+root {
+  --primary-color: blueviolet;
+  --text-color: aliceblue;
+  --text-color-gray: #333;
+  --mono2: "VT323", monospace;
+  --mono: "Fira Mono", monospace;
+  --main-name-font: "Niconne", cursive;
+  --nav-font: "Cabin Sketch", cursive;
+}
 
 /* header */
 
-.header{
-    background: blueviolet;
-    color: white;
-    width: 100vw;
+.header {
+  background: blueviolet;
+  color: white;
+  position: fixed;
+  width: 100vw;
+  top: 0;
 }
 
-.navbar{
-    background: blueviolet;
-    color: white;
-    width: 100%;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    list-style: none;
-    text-emphasis: none;
-    text-decoration: none;
+.navbar {
+  background: blueviolet;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  list-style: none;
+  text-emphasis: none;
+  text-decoration: none;
 }
-.navbar a{
-    text-decoration: none;
-    color:aliceblue
+.navbar a {
+  text-decoration: none;
+  color: aliceblue;
 }
 
-.footer{
-    background: blueviolet;
-    color: white;
-    width: 100vw;
-    padding: 10px;
-    text-align: end;
-    position: absolute;
-    bottom: 0;
+.footer {
+  background: blueviolet;
+  color: white;
+  width: 100vw;
+  padding: 10px;
+  text-align: end;
+  position: fixed;
+  bottom: 0;
+}
+
+#main-name {
+  font-family: var(--main-name-font);
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: px;
+  color: aliceblue;
+  font-family: var(--main-name-font);
 }
