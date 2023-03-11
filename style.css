@@ -12,7 +12,6 @@ root {
   --primary-color: blueviolet;
   --text-color: aliceblue;
   --text-color-gray: #333;
-  --mono2: "VT323", monospace;
   --mono: "Fira Mono", monospace;
   --main-name-font: "Niconne", cursive;
   --nav-font: "Cabin Sketch", cursive;
@@ -24,23 +23,36 @@ root {
   background: blueviolet;
   color: white;
   position: fixed;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 30% 1fr;
   width: 100vw;
+  text-align: center;
   top: 0;
+}
+
+header nav{
+    padding: 1rem
 }
 
 .navbar {
   background: blueviolet;
   color: white;
   width: 100%;
+  font-size: 1.4rem;;
+  height: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 10px;
+  flex-flow: row wrap;
+  padding:  0rem;
+  gap: 1rem;
   list-style: none;
+  font-family: "Cabin Sketch", cursive;
   text-emphasis: none;
   text-decoration: none;
 }
-.navbar a {
+header a {
   text-decoration: none;
   color: aliceblue;
 }
@@ -55,11 +67,19 @@ root {
   bottom: 0;
 }
 
-#main-name {
-  font-family: var(--main-name-font);
+header #main-name {
+  font-family: "Niconne", cursive;
   font-size: 2rem;
+  letter-spacing: 2px;
   font-weight: 700;
-  letter-spacing: px;
   color: aliceblue;
-  font-family: var(--main-name-font);
+}
+
+header h1{
+  padding: 0 0.7rem;
+
+}
+
+.main-content {
+  padding: 70px;
 }
