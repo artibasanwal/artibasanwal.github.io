@@ -75,8 +75,9 @@ header a {
 }
 
 .copyright {
-  text-align: center;
+  text-align: left;
   padding: 0 0.7rem;
+  font-size: 1.2rem;
 }
 
 header #main-name {
@@ -93,4 +94,23 @@ header h1 {
 
 .main-content {
   padding: 70px;
+}
+
+.contact-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    padding-left: 1rem;
+    gap: 1rem;
+    list-style: none;
+    text-emphasis: none;
+    text-decoration: none;
+}
+.contact-links a{
+    text-decoration: none;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 0.5rem;
+    font-size: 1.5rem;
 }
