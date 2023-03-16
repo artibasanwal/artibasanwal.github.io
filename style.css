@@ -52,10 +52,7 @@ header nav {
   text-emphasis: none;
   text-decoration: none;
 }
-.navbar a{
-    text-decoration: none;
-    background-color: blueviolet;
-}
+
 header a {
   text-decoration: none;
   color: white;
@@ -96,21 +93,42 @@ header h1 {
   padding: 70px;
 }
 
-.contact-links{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: row wrap;
-    padding-left: 1rem;
-    gap: 1rem;
-    list-style: none;
-    text-emphasis: none;
-    text-decoration: none;
+.contact-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  padding-left: 1rem;
+  gap: 1rem;
+  list-style: none;
+  text-emphasis: none;
+  text-decoration: none;
 }
-.contact-links a{
-    text-decoration: none;
-    background-color: blueviolet;
-    color: aliceblue;
-    padding: 0.5rem;
-    font-size: 1.5rem;
+.contact-links a {
+  text-decoration: none;
+  background-color: blueviolet;
+  color: aliceblue;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.nav-button {
+
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  text-decoration: none;
+  display: inline-block;
+  background-color: rgba(0,0,0, 15%);
+  color: aliceblue;
+  padding: 4px 8px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}
+
+.nav-button:hover {
+ 
+  box-sizing: border-box;
+  background-color:  rgba(0,0,0, 30%);;
+  outline: #cfc6c6 1px solid;
 }
