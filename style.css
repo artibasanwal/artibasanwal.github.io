@@ -22,13 +22,11 @@ root {
 .header {
   background: blueviolet;
   color: white;
-  position: fixed;
   display: grid;
   align-items: center;
   grid-template-columns: 30% 1fr;
   width: 100vw;
   text-align: center;
-  top: 0;
 }
 
 header nav {
@@ -63,12 +61,10 @@ header a {
   color: white;
   width: 100vw;
   padding: 10px;
-  position: fixed;
   display: grid;
   align-items: center;
   grid-template-columns: 30% 1fr;
   justify-content: center;
-  bottom: 0;
 }
 
 .copyright {
@@ -89,9 +85,6 @@ header h1 {
   padding: 0 0.7rem;
 }
 
-.main-content {
-  padding: 70px;
-}
 
 .contact-links {
   display: flex;
@@ -131,4 +124,19 @@ header h1 {
   box-sizing: border-box;
   background-color:  rgba(0,0,0, 30%);;
   outline: #cfc6c6 1px solid;
+}
+
+body{
+  background-color: #f5f5f5;
+  font-family: "Fira Mono", monospace;
+  font-size: 1.2rem;
+  color: #333;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.main-content{
+  padding: 2rem 4rem;
 }
