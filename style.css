@@ -25,7 +25,7 @@ root {
   display: grid;
   align-items: center;
   grid-template-columns: 40% 1fr;
-  width: 100vw;
+  width: 100%;
   text-align: center;
 }
 
@@ -57,9 +57,10 @@ header a {
 .footer {
   background: blueviolet;
   color: white;
-  width: 100vw;
-  padding: 10px;
+  width: 100%;
   display: grid;
+  padding: 10px;
+
   align-items: center;
   grid-template-columns: max-content 1fr;
   justify-content: center;
@@ -153,13 +154,13 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: max-content 1fr;
     grid-auto-flow: column;
-    width: 100vw;
+    width: 100%;
     text-align: center;
   }
   .footer {
     background: blueviolet;
     color: white;
-    width: 100vw;
+    width: 100%;
     padding: 10px;
     display: grid;
     align-items: center;
@@ -172,5 +173,4 @@ body {
   .copyright {
     text-align: center;
   }
-  
 }
