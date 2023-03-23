@@ -24,7 +24,7 @@ root {
   color: white;
   display: grid;
   align-items: center;
-  grid-template-columns: 30% 1fr;
+  grid-template-columns: 40% 1fr;
   width: 100vw;
   text-align: center;
 }
@@ -37,7 +37,7 @@ header nav {
   background: blueviolet;
   color: aliceblue;
   width: 100%;
-  font-size: 1.4rem;
+  font-size: 1rem;
   height: 100%;
   display: flex;
   justify-content: space-around;
@@ -46,9 +46,7 @@ header nav {
   padding-left: 1rem;
   gap: 1rem;
   list-style: none;
-  font-family: "Cabin Sketch", cursive;
-  text-emphasis: none;
-  text-decoration: none;
+  font-weight: 600;
 }
 
 header a {
@@ -63,7 +61,7 @@ header a {
   padding: 10px;
   display: grid;
   align-items: center;
-  grid-template-columns: 30% 1fr;
+  grid-template-columns: max-content 1fr;
   justify-content: center;
 }
 
@@ -85,7 +83,6 @@ header h1 {
   padding: 0 0.7rem;
 }
 
-
 .contact-links {
   display: flex;
   justify-content: space-around;
@@ -106,13 +103,12 @@ header h1 {
 }
 
 .nav-button {
-
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-  box-sizing: border-box;         /* Opera/IE 8+ */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
   text-decoration: none;
   display: inline-block;
-  background-color: rgba(0,0,0, 15%);
+  background-color: rgba(0, 0, 0, 15%);
   color: aliceblue;
   padding: 4px 8px;
   font-size: 1.1rem;
@@ -120,13 +116,12 @@ header h1 {
 }
 
 .nav-button:hover {
- 
   box-sizing: border-box;
-  background-color:  rgba(0,0,0, 30%);;
+  background-color: rgba(0, 0, 0, 30%);
   outline: #cfc6c6 1px solid;
 }
 
-body{
+body {
   background-color: #f5f5f5;
   font-family: "Fira Mono", monospace;
   font-size: 1.2rem;
@@ -137,6 +132,45 @@ body{
   min-height: 100vh;
 }
 
-.main-content{
-  padding: 2rem 4rem;
+.main-content {
+  padding: 2rem 2rem;
+}
+
+#mc_embed_signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* mobile media query  */
+
+@media screen and (max-width: 600px) {
+  .header {
+    background: blueviolet;
+    color: white;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content 1fr;
+    grid-auto-flow: column;
+    width: 100vw;
+    text-align: center;
+  }
+  .footer {
+    background: blueviolet;
+    color: white;
+    width: 100vw;
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content 1fr;
+    grid-auto-flow: column;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .copyright {
+    text-align: center;
+  }
+  
 }
