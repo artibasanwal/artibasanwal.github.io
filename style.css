@@ -139,6 +139,7 @@ body {
 .main-content {
   padding: 2rem 2rem;
   padding-top: 5rem;
+  min-height: 400px;
 }
 
 #mc_embed_signup {
@@ -179,11 +180,11 @@ body {
   .copyright {
     text-align: center;
   }
-  .main-content{
-  padding-top: 8rem;
+  .main-content {
+    padding-top: 8rem;
   }
 }
 
-input{
+input {
   background-color: aliceblue;
 }
