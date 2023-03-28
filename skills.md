@@ -1,0 +1,31 @@
+# Skills I have
+
+## Languages
+        - JavaScript, HTML, SaSS
+         
+
+<!--
+  <I have worked on many technologies
+          like HTML, CSS, JavaScript, Bootstrap, React, etc. I have worked on many
+          frameworks like React, Bootstrap, etc. I have worked on many libraries
+          like React, Bootstrap, etc. I have worked on many tools like VS Code,
+          Figma, etc. I have worked on many platforms like Github, Netlify, etc. I
+          have worked on many languages like HTML, CSS, JavaScript, etc. I have
+          worked on many databases like MySQL, etc. I have worked on many
+          operating systems like Windows, Linux, etc. I have worked on many
+          servers like Apache, etc. I have worked on many softwares like VS Code,
+          Figma, etc. I have worked on many technologies like HTML, CSS,
+          JavaScript, Bootstrap, React, etc. I have worked on many frameworks like
+          React, Bootstrap, etc. I have worked on many libraries like React,
+          Bootstrap, etc. I have worked on many tools like VS Code, Figma, etc. I
+          have worked on many platforms like Github, Netlify, etc. I have worked
+          on many languages like HTML, CSS, JavaScript, etc. I have worked on many
+          databases like MySQL, etc. I have worked on many operating systems like
+          Windows, Linux, etc. I have worked on many servers like Apache, etc. I
+          have worked on many softwares like VS Code, Figma, etc. I have worked on
+          many technologies like HTML, CSS, JavaScript, Bootstrap, React, etc. I
+          have worked on many frameworks like React, Bootstrap, etc. I have worked
+          on many libraries like React, Bootstrap, etc. I have worked on many
+          tools like VS Code, Figma, etc. I have worked on many platforms like
+          Github, Netlify, etc. I have worked on many languages like HTML, CSS,
+          JavaScript, etc. I have worked on many databases like MySQL -->
